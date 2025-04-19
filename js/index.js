@@ -79,7 +79,7 @@ logButton.addEventListener("click", function () {
       <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
       <form class="d-flex" role="search">
         <button class="btn btn-outline-danger">
-          <a href="" class="text-decoration-none text-white">Log out</a>
+          <a href="https://fast94.github.io/SignIn/" class="text-decoration-none text-white">Log out</a>
         </button>
       </form>
     </div>
