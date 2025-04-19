@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="vh-100 bg-info">
+      <div
+        class="container d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1 class="mt-5">Smart Login System</h1>
+        <div class="w-75 box p-5 shadow">
+          <input
+            type="text"
+            class="form-control mb-3 d-none"
+            id="inputName"
+            placeholder="Enter your Name"
+            oninput="validate(regName, inputName)"
+          />
+          <input
+            type="email"
+            class="form-control mb-3 d-none"
+            id="inputEmail"
+            placeholder="Enter your Email"
+            oninput="validate(regEmail, inputEmail)"
+          />
+          <input
+            type="email"
+            class="form-control mb-3"
+            id="logEmail"
+            placeholder="Enter your Email"
+          />
+          <input
+            type="password"
+            class="form-control mb-3 d-none"
+            id="inputPassword"
+            placeholder="Enter your Password"
+            oninput="validate(regPassword, inputPassword)"
+          />
+          <input
+            type="password"
+            class="form-control mb-3"
+            id="logPassword"
+            placeholder="Enter your Password"
+          />
+          <p class="text-success text-center success d-none">Success</p>
+          <button class="btn btn-primary w-100 d-none reg" type="submit">
+            sign uP
+          </button>
+          <button class="btn btn-primary w-100 log" type="submit">
+            log in
+          </button>
+          <p class="text-center">Don’t have an account?</p>
+          <button class="mx-auto link d-block">sign up</button>
+          <button class="mx-auto link2 d-none">login</button>
+        </div>
+      </div>
+    </header>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
